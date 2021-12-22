@@ -19,7 +19,7 @@ const FeatureBox = (props) => {
                 </div>
                 <h5 className="text-dark font-weight-normal mb-3 pt-3">{feature.title}</h5>
                 <p className="text-muted mb-3 f-15">{feature.desc}</p>
-                <a href={feature.link} className="f-16 text-warning">Voltar ao topo <span className="right-icon ml-2">&#8594;</span></a>
+                <a href={feature.link} className="f-16 text-success">Voltar ao topo <span className="right-icon ml-2">&#8594;</span></a>
               </div>
             </Col>
         </Row>
@@ -32,7 +32,7 @@ const FeatureBox = (props) => {
             </div>
             <h5 className="text-dark font-weight-normal mb-3 pt-3">{feature.title}</h5>
             <p className="text-muted mb-3 f-15">{feature.desc}</p>
-            <a href={feature.link} className="f-16 text-warning">Voltar ao topo <span className="right-icon ml-2">&#8594;</span></a>
+            <a href={feature.link} className="f-16 text-success">Voltar ao topo <span className="right-icon ml-2">&#8594;</span></a>
           </div>
         </Col>
         <Col md={{size:5, offset:1}} className="mt-5 mt-sm-0">
@@ -48,7 +48,7 @@ const FeatureBox = (props) => {
 }
 const Feature = () => {
 const features = [
-    {id : 1, img : "./ipa.png", title : "A ÚLTIMA IPA", desc : "Cerveja do tipo IPA, encorpada e frutada com leve amargor. Produzia com extrato de malte seco e lúpulo El dorado", link : "/"},
+    {id : 1, img : "./ipa.png", title : "A ÚLTIMA IPA", desc : "Cerveja do tipo IPA, encorpada e frutada com leve amargor. Produzida com extrato de malte seco e lúpulo El dorado", link : "/"},
     {id : 2, img : "./weiss.png", title : "LOREM IPSUM WEISS", desc : "Cerveja do tipo Weiss, refrescante com final seco e toque aveludado", link : "/"},
   ];
 return (
