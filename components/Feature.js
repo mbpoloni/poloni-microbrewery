@@ -19,7 +19,7 @@ const FeatureBox = (props) => {
                 </div>
                 <h5 className="text-dark font-weight-normal mb-3 pt-3">{feature.title}</h5>
                 <p className="text-muted mb-3 f-15">{feature.desc}</p>
-                <a href={feature.link} className="f-16 text-warning">Read More <span className="right-icon ml-2">&#8594;</span></a>
+                <a href={feature.link} className="f-16 text-warning">Voltar ao topo <span className="right-icon ml-2">&#8594;</span></a>
               </div>
             </Col>
         </Row>
@@ -32,7 +32,7 @@ const FeatureBox = (props) => {
             </div>
             <h5 className="text-dark font-weight-normal mb-3 pt-3">{feature.title}</h5>
             <p className="text-muted mb-3 f-15">{feature.desc}</p>
-            <a href={feature.link} className="f-16 text-warning">Read More <span className="right-icon ml-2">&#8594;</span></a>
+            <a href={feature.link} className="f-16 text-warning">Voltar ao topo <span className="right-icon ml-2">&#8594;</span></a>
           </div>
         </Col>
         <Col md={{size:5, offset:1}} className="mt-5 mt-sm-0">
@@ -48,9 +48,8 @@ const FeatureBox = (props) => {
 }
 const Feature = () => {
 const features = [
-    {id : 1, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
-    {id : 2, img : "./images/Group Members.png", title : "LOREM IPSUM", desc : "Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.", link : "/"},
-    {id : 3, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
+    {id : 1, img : "./ipa.png", title : "A ÚLTIMA IPA", desc : "Cerveja do tipo IPA, encorpada e frutada com leve armagor. Produzia com extrato de malte seco e lúpulo El dorado", link : "/"},
+    {id : 2, img : "./weiss.png", title : "LOREM IPSUM WEISS", desc : "Cerveja do tipo Weiss, refrescante com final seco e toque aveludado", link : "/"},
   ];
 return (
     <section className="section" id="feature">
@@ -58,8 +57,8 @@ return (
         <Row className="justify-content-center">
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
-              <h3 className="font-weight-normal text-dark"><span className="text-warning">Features</span></h3>
-              <p className="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+              <h3 className="font-weight-normal text-dark"><span className="text-success">Catálogo de Cervejas</span></h3>
+              <p className="text-muted">A Poloni Microbrewery possui consagrados tipos de cervejas e está sempre buscando novos sabores para os amantes cervejeiros</p>
             </div>
           </Col>
         </Row>

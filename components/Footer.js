@@ -4,7 +4,7 @@ const Footer = () => {
   const links = [
     { id : 1, title : "Sobre Nós",
       child : [
-          { title : "Entre em contato", link : "mailto:poloni@gmail.com" },
+          { title : "Entre em contato", link : "mailto:polonibeer@gmail.com" },
       ]
     },
   ];
@@ -38,7 +38,7 @@ const Footer = () => {
               <Col md={4}>
                 <h6 className="text-dark mb-3">Endereço</h6>
                 <p className="text-muted f-14">Caxias do Sul - RS</p>
-                <h6 className="text-muted pb-2">Email: poloni@gmail.com</h6>
+                <h6 className="text-muted pb-2">Email: polonibeer@gmail.com</h6>
                 <ul className="list-unstyled footer-social-list mt-4">
                   <li className="list-inline-item"><a href="#"><i className="mdi mdi-facebook"></i></a></li>
                   <li className="list-inline-item"><a href="#"><i className="mdi mdi-instagram"></i></a></li>

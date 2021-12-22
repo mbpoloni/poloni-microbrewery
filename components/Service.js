@@ -2,12 +2,13 @@ import React from 'react';
 import { Container, Row, Col } from "reactstrap";
 const Service = () => {
   const services = [
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
+    { title : "MOER O MALTE", desc : "Moer o malte para que fique descascado, com a parte do amido exposta" },
+    { title : "MOSTURAÇÃO", desc : "Aquecimento do malte com agua a uma temperatra ideal, para que o amido do malte comece a transformar em açucar" },
+    { title : "FILTRAGEM", desc : "Separação o mosto do bagaço do grão do malte" },
+    { title : "FERVURA", desc : "Processo onde ocorre a sanitização do líquido" },
+    { title : "FERMENTAÇÃO", desc : "Processo onde o açucar vai ser tranformado em álcool" },
+    { title : "MATURAÇÃO", desc : "Processo onde as leveduras atuam mais um pouco na cerveja, gerando um amadurecimento da bebida" },
+    { title : "ENVASE", desc : "Processo onde a cerveja é colocada nas garrafas" },
   ]
   
   return (
@@ -16,8 +17,8 @@ const Service = () => {
         <Row className="justify-content-center">
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
-              <h3 className="font-weight-normal text-dark"><span className="text-warning">Services</span></h3>
-              <p className="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+              <h3 className="font-weight-normal text-dark"><span className="text-success">Processo de fabricação</span></h3>
+              <p className="text-muted">Nossas cervejas são produzidas seguindo um rigoroso controle de qualidade em todas as etapas de fabricação </p>
             </div>
           </Col>
         </Row>
