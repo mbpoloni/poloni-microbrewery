@@ -48,7 +48,7 @@ const FeatureBox = (props) => {
 }
 const Feature = () => {
 const features = [
-    {id : 1, img : "./ipa.png", title : "A ÚLTIMA IPA", desc : "Cerveja do tipo IPA, encorpada e frutada com leve armagor. Produzia com extrato de malte seco e lúpulo El dorado", link : "/"},
+    {id : 1, img : "./ipa.png", title : "A ÚLTIMA IPA", desc : "Cerveja do tipo IPA, encorpada e frutada com leve amargor. Produzia com extrato de malte seco e lúpulo El dorado", link : "/"},
     {id : 2, img : "./weiss.png", title : "LOREM IPSUM WEISS", desc : "Cerveja do tipo Weiss, refrescante com final seco e toque aveludado", link : "/"},
   ];
 return (
